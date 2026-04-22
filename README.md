@@ -50,6 +50,8 @@ Token IDs
 
 The file is expected at `input.txt` in the project root.
 
+> `input.txt` is excluded from the repo. Download it using the curl command above.
+
 ---
 
 ## How to Run
@@ -108,8 +110,9 @@ The model learns word boundaries, punctuation, capitalization, and dialogue stru
 
 ```
 gpt-from-scratch/
-├── gpt.py       # full implementation: tokenizer, model, training loop
-└── input.txt    # Tiny Shakespeare dataset
+├── gpt.py        # full implementation: tokenizer, model, training loop
+├── .gitignore    # excludes input.txt and __pycache__
+└── README.md     # project documentation
 ```
 
 ---
